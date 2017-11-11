@@ -18,9 +18,19 @@
         "commands": [
             {
                 "command": "extension.sayHello",
-                "title": "Hello World"
+                "title": "Hello World",
+                "icon": "./src/media/files-dark.png"
+
             }
-        ]
+        ],
+        "menus": {
+            "touchBar": [
+                {
+                    "command": "extension.sayHello",
+                    "group": "navigation"
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
