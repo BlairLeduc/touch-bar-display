@@ -1,48 +1,83 @@
 {
     "name": "touch-bar-display",
-    "displayName": "touch-bar-display",
-    "description": "Touch Bar Display Commands",
-    "version": "0.0.1",
+    "displayName": "Touch Bar Display Commands",
+    "description": "Adds panel display focus commands to the MacBook's Touch Bar.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlairLeduc/touch-bar-display.git"
+    },
+    "icon": "media/touch-bar-example.png",
+    "version": "1.0.2",
     "publisher": "blairleduc",
+    "keywords": [
+        "macbook",
+        "touchbar",
+        "touch bar",
+        "vscode",
+        "visual studio code"
+    ],
     "engines": {
         "vscode": "^1.18.0"
     },
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:extension.sayHello"
-    ],
-    "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World",
-                "icon": "./src/media/files-dark.png"
-
+                "command": "workbench.view.explorer",
+                "title": "1Files",
+                "icon": "./media/files.png"
+            },
+            {
+                "command": "workbench.view.search",
+                "title": "2Search",
+                "icon": "./media/search.png"
+            },
+            {
+                "command": "workbench.view.scm",
+                "title": "3Source",
+                "icon": "./media/scm.png"
+            },
+            {
+                "command": "workbench.view.debug",
+                "title": "4Debug",
+                "icon": "./media/debug.png"
+            },
+            {
+                "command": "workbench.view.extensions",
+                "title": "5Extensions",
+                "icon": "./media/extensions.png"
             }
         ],
         "menus": {
             "touchBar": [
                 {
-                    "command": "extension.sayHello",
-                    "group": "navigation"
+                    "command": "workbench.view.explorer",
+                    "when": "!inDebugMode",
+                    "group": "display"
+                },
+                {
+                    "command": "workbench.view.search",
+                    "when": "!inDebugMode",
+                    "group": "display"
+                },
+                {
+                    "command": "workbench.view.scm",
+                    "when": "!inDebugMode",
+                    "group": "display"
+                },
+                {
+                    "command": "workbench.view.debug",
+                    "when": "!inDebugMode",
+                    "group": "display"
+                },
+                {
+                    "command": "workbench.view.extensions",
+                    "when": "!inDebugMode",
+                    "group": "display"
                 }
             ]
         }
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "npm run compile && node ./node_modules/vscode/bin/test"
-    },
-    "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
     }
 }

@@ -1,65 +1,20 @@
-# touch-bar-display README
+# Touch Bar Display Commands
 
-This is the README for your extension "touch-bar-display". After writing up a brief description, we recommend including the following sections.
+[![Latest Release](https://vsmarketplacebadge.apphb.com/version/blairleduc.touch-bar-display.svg)](https://marketplace.visualstudio.com/items?itemName=blairleduc.touch-bar-display)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/blairleduc.touch-bar-display.svg)](https://marketplace.visualstudio.com/items?itemName=blairleduc.touch-bar-display)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/blairleduc.touch-bar-display.svg)](https://marketplace.visualstudio.com/items?itemName=blairleduc.touch-bar-display#review-details)
+![Licence](https://img.shields.io/github/license/BlairLeduc/touch-bar-display.svg)
 
-## Features
+Adds the following commands to the touchbar:
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![Touch Bar Example](media/touch-bar-example.png)
 
-For example if there is an image subfolder under your extension project workspace:
+These commands automatically hide during debugging to allow room for the debug commands.
 
-\!\[feature X\]\(images/feature-x.png\)
+# Installation
+Open VS Code, run the this command:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+    ext install touch-bar-display
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+# Do you know of a great extension that's missing?
+Create a Pull Request, and I'll give it a spin.
