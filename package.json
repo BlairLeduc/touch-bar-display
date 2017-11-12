@@ -7,7 +7,7 @@
         "url": "https://github.com/BlairLeduc/touch-bar-display.git"
     },
     "icon": "media/touch-bar-example.png",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "publisher": "blairleduc",
     "keywords": [
         "macbook",
@@ -25,7 +25,7 @@
     "contributes": {
         "commands": [
             {
-                "command": "workbench.view.explorer",
+                "command": "workbench.files.action.focusFilesExplorer",
                 "title": "1Files",
                 "icon": "./media/files.png"
             },
@@ -53,7 +53,7 @@
         "menus": {
             "touchBar": [
                 {
-                    "command": "workbench.view.explorer",
+                    "command": "workbench.files.action.focusFilesExplorer",
                     "when": "!inDebugMode",
                     "group": "display"
                 },
