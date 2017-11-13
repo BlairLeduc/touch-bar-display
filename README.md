@@ -16,5 +16,5 @@ Open VS Code, run the this command:
 
     ext install touch-bar-display
 
-# Do you know of a great extension that's missing?
-Create a Pull Request, and I'll give it a spin.
+# Do you have functionality that would help others?
+Create a Pull Request, and I'll take a look.
