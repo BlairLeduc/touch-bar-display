@@ -48,6 +48,11 @@
                 "command": "workbench.view.extensions",
                 "title": "5Extensions",
                 "icon": "./media/extensions.png"
+            },
+            {
+                "command": "workbench.view.extension.bookmarks",
+                "title": "6Bookmarks",
+                "icon": "./media/bookmark.png"
             }
         ],
         "menus": {
@@ -74,6 +79,11 @@
                 },
                 {
                     "command": "workbench.view.extensions",
+                    "when": "!inDebugMode",
+                    "group": "display"
+                },
+                {
+                    "command": "workbench.view.extension.bookmarks",
                     "when": "!inDebugMode",
                     "group": "display"
                 }
