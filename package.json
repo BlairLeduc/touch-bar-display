@@ -40,11 +40,6 @@
                 "icon": "./media/scm.png"
             },
             {
-                "command": "workbench.view.debug",
-                "title": "4Debug",
-                "icon": "./media/debug.png"
-            },
-            {
                 "command": "workbench.view.extensions",
                 "title": "5Extensions",
                 "icon": "./media/extensions.png"
@@ -64,11 +59,6 @@
                 },
                 {
                     "command": "workbench.view.scm",
-                    "when": "!inDebugMode",
-                    "group": "display"
-                },
-                {
-                    "command": "workbench.view.debug",
                     "when": "!inDebugMode",
                     "group": "display"
                 },
