@@ -7,7 +7,7 @@
         "url": "https://github.com/BlairLeduc/touch-bar-display.git"
     },
     "icon": "media/touch-bar-example.png",
-    "version": "1.1.1",
+    "version": "1.2.1",
     "publisher": "blairleduc",
     "keywords": [
         "macbook",
@@ -17,7 +17,7 @@
         "visual studio code"
     ],
     "engines": {
-        "vscode": "^1.18.0"
+        "vscode": "^1.31.0"
     },
     "categories": [
         "Other"
