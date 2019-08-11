@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "touch-bar-display" extension will be documented in this file.
 
-## [1.3.0]
+## [1.3.1]
 - Updated icons to match new icon refresh
 - Return of the debug icon
 
