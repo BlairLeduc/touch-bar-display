@@ -7,7 +7,7 @@
         "url": "https://github.com/BlairLeduc/touch-bar-display.git"
     },
     "icon": "media/touch-bar-icon.png",
-    "version": "1.3.1",
+    "version": "1.4.1",
     "publisher": "blairleduc",
     "keywords": [
         "macbook",
@@ -42,7 +42,7 @@
             {
                 "command": "workbench.view.debug",
                 "title": "4Debug",
-                "icon": "./media/debug-activity-bar.png"
+                "icon": "./media/debug-alt-activity-bar.png"
             },
             {
                 "command": "workbench.view.extensions",

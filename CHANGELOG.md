@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "touch-bar-display" extension will be documented in this file.
 
+## [1.4.0]
+ - Updated debug icon to match current activity bar
+
 ## [1.3.1]
 - Updated icons to match new icon refresh
 - Return of the debug icon
