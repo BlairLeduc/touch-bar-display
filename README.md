@@ -11,10 +11,12 @@ Adds the following commands to the touchbar:
 
 These commands automatically hide during debugging to allow room for the debug commands.
 
-# Installation
+## Installation
+
 Open VS Code, run the this command:
 
     ext install touch-bar-display
 
-# Do you have functionality that would help others?
+## Do you have functionality that would help others?
+
 Create a Pull Request, and I'll take a look.

@@ -7,7 +7,7 @@
         "url": "https://github.com/BlairLeduc/touch-bar-display.git"
     },
     "icon": "media/touch-bar-icon.png",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "publisher": "blairleduc",
     "keywords": [
         "macbook",
@@ -27,27 +27,27 @@
             {
                 "command": "workbench.files.action.focusFilesExplorer",
                 "title": "1Files",
-                "icon": "./media/files-activity-bar.png"
+                "icon": "./media/files.png"
             },
             {
                 "command": "workbench.view.search",
                 "title": "2Search",
-                "icon": "./media/search-activity-bar.png"
+                "icon": "./media/search.png"
             },
             {
                 "command": "workbench.view.scm",
                 "title": "3Source",
-                "icon": "./media/scm-activity-bar.png"
+                "icon": "./media/source-control.png"
             },
             {
                 "command": "workbench.view.debug",
                 "title": "4Debug",
-                "icon": "./media/debug-alt-activity-bar.png"
+                "icon": "./media/debug-alt.png"
             },
             {
                 "command": "workbench.view.extensions",
                 "title": "5Extensions",
-                "icon": "./media/extensions-activity-bar.png"
+                "icon": "./media/extensions.png"
             }
         ],
         "menus": {
